@@ -1,0 +1,72 @@
+from llama_index import (
+    StorageContext,
+    load_index_from_storage,
+    SimpleDirectoryReader,
+    GPTListIndex,
+    readers,
+    GPTVectorStoreIndex,
+    LLMPredictor,
+    PromptHelper,
+    ServiceContext,
+)
+from langchain import OpenAI
+import sys
+import os
+from IPython.display import Markdown, display
+from dotenv import load_dotenv
+
+load_dotenv()
+
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
+
+def construct_index(directory_path):
+    # set maximum input size
+    max_input_size = 4096
+    # set number of output tokens
+    num_outputs = 2000
+    # set maximum chunk overlap
+    max_chunk_overlap = 20
+    # set chunk size limit
+    chunk_size_limit = 600
+
+    # define prompt helper
+    prompt_helper = PromptHelper(
+        max_input_size,
+        num_outputs,
+        max_chunk_overlap,
+        chunk_size_limit=chunk_size_limit,
+    )
+
+    # define LLM
+    llm_predictor = LLMPredictor(
+        llm=OpenAI(
+            temperature=0.5, model_name="text-davinci-003", max_tokens=num_outputs
+        )
+    )
+
+    documents = SimpleDirectoryReader(directory_path).load_data()
+
+    service_context = ServiceContext.from_defaults(
+        llm_predictor=llm_predictor, prompt_helper=prompt_helper
+    )
+    index = GPTVectorStoreIndex.from_documents(
+        documents, service_context=service_context
+    )
+
+    # index.save_to_disk('index.json')
+    index.storage_context.persist(persist_dir="index.json")
+
+    return index
+
+
+def ask_ai(query):
+    # index = GPTVectorStoreIndex.load_from_disk('index.json')
+    # rebuild storage context
+    storage_context = StorageContext.from_defaults(persist_dir="index.json")
+
+    # load index
+    index = load_index_from_storage(storage_context)
+    query_engine = index.as_query_engine()
+    response = query_engine.query(query)
+    return response.response

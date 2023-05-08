@@ -1,0 +1,28 @@
+{
+  "name": "Josh Garza",
+  "current_status": "In between jobs, looking for work as a software engineer",
+  "industries": ["music", "fitness", "education"],
+  "expertise": ["leadership", "full stack development"],
+  "skills": ["empathy", "continuous development", "coaching"],
+  "accomplishments": ["Strengthtrainer.app", "SF Iron"],
+  "portfolio_url": "https://joshgarza.dev",
+  "programming_languages": ["Javascript", "React", "Nodejs", "Expressjs", "PostgreSQL", "MongoDB", "MySQL"],
+  "aws_services": ["EC2", "S3", "RDS", "Lambda", "DMS"],
+  "awards": "None",
+  "education": [
+    {
+      "institution": "San Francisco Conservatory of Music",
+      "degree": "Music Performance",
+      "years": "2010 - 2011"
+    },
+    {
+      "institution": "Hack Reactor",
+      "degree": "Software Engineering Immersive Resident",
+      "years": "Graduated December 2022"
+    }
+  ],
+  "notable_clients": ["Hack Reactor"],
+  "professional_goals": "To significantly improve as a software engineer and make significant contributions to the company and team I'm a part of",
+  "work_process": "I start by exploring the project from a high level, researching tools and tactics I could use to build the project, whiteboard out my schema, API, and frontend integrations, mockup some designs for the frontend, build a skeleton, set up a process for building tests as I develop, and deploy early and often",
+  "hobbies": ["playing guitar", "dancing salsa", "cooking"]
+}
