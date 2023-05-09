@@ -2,13 +2,30 @@
   "name": "Josh Garza",
   "current_job": "Currently in between jobs but looking for work as a software engineer.",
   "previous_industries": "None at the moment but I have worked in music, fitness, and education industries.",
-  "technical_skills": "Leadership, full stack development",
-  "soft_skills": "Empathy, continuous development, coaching",
-  "projects": "Strengthtrainer.app and SF Iron",
+  "technical_skills": "full stack development",
+  "soft_skills": "Leadership, Empathy, continuous development, coaching",
+  "projects": "Strengthtrainer, his personal portfolio, Braking Friendships: Exploding Kittens Online, and Atelier Mais",
+  "project_links": [
+    {
+      name: "Strengthtrainer",
+      link: "https://www.strenghtrainer.app/login"
+    }
+    {
+      name: "Braking Friendships: Exploding Kittens Online",
+      link: "https://github.com/Braking-Friendships/blueocean"
+    }
+    {
+      name: "Atelier Mais",
+      link: "https://github.com/joshgarza/Atelier-Mais"
+    }
+  ],
+  "current_projects": "Currently, I'm working on improving the knowledge base and responses from JoshGPT as well as iterating on Strengthtrainer.
+  "business_experience": "I started and owned SF Iron, a strength training gym in San Francisco. I ran the gym for 7 years and met a ton of software engineers and professionals in the tech industry in my time as owner. I closed the gym in 2021 and am now pursuing a career as a software engineer.",
   "portfolio_website": "joshgarza.dev",
   "programming_languages": "Javascript, React, Nodejs, Expressjs, postgresql, mongodb, mysql, aws: ec2, s3, rds, lambda, dms",
   "open_source_contributions": "No",
   "education": "Attended the San Francisco Conservatory of Music from 2010 - 2011 for music performance. Graduated from Hack Reactor in December of 2022.",
+  "learn_to_code": "When I owned and worked as a strength coach at SF Iron, I coached a ton of software engineers and was really fortunate enough to befriend a couple who worked on projects with me. I learned so much working alongside them and put that to use when I attended Hack Reactor. In Hack Reactor was where I really learned how everything could be put together. I built 4 full stack apps in my time there and have since been continuing to build applications on a full-time basis."
   "mentorship": "Hack Reactor as a Software Engineering Immersive Resident",
   "career_goals": "To significantly improve as a software engineer and make significant contributions to the company and team I'm a part of.",
   "project_approach": "I start by exploring the project from a high level, researching tools and tactics I could use to build the project, whiteboard out my schema, api, and frontend integrations, mockup some designs for the frontend, build a skeleton, set up a process for building tests as I develop, deploy early and often",
@@ -16,7 +33,7 @@
   "challenging_project": "Building out my portfolio and integrating OpenAI's api to build my own custom chatbot was challenging and rewarding. I got to learn about python, llama index, langchain, and a couple deployment tools: Vercel and Render. To build the app I needed a functioning and good looking frontend as well as an api that could process queries and respond through the llm model, davinci. I also had to build out a dataset that contained information about my personal and work experience which I'm learning is an ongoing process.",
   "motivation": "I love problem solving and pursuing things that have a high skill ceiling. The nature of deciding what to build, constructing a high level solution, researching what tools will be necessary, building and debugging, and deploying applications are exceedingly exciting. Even when I get stuck on a bug, I can't help but buzz with excitement knowing that on the other side of the bug is an advancement in the project I'm working on.",
   "staying_updated": "I have friends who work in the industry that I talk to regularly. I follow a TON of influencers on social media channels and I also subscribe to several newsletters.",
-  "leadership_experience": "I've led a team and have mentored very junior developers. I ran my own business for 7 years and managed 8 employees. I've also had the opportunity to mentor a few people who are now pursuing careers in software engineering. The mentorship opportunities have come pretty organically through connections I have in the industry and from previous work experience. I tend to be approached by people when they learn I'm working on something new and those conversations often end up in opportunities being created.",
+  "leadership_experience": "I've led a team while being the owner for SF Iron. During my time as the Lead SEIR at Hack Reactor, I taught workshops on various software engineering topics including, recursion, how to design and implement an API, and how to implement an ETL process.",
   "favorite_programming_language": "I love programming in javascript (shocking, I know). After I learned Node.js, it felt like the whole world of building web applications opened up to me. I like that if I want to spin up a quick project or build something long term, I can utilize JavaScript for all of it.",
   "learning_experience": "I just learned more about python and LLM libraries while building out my portfolio. I started off by reading through documentation and watching YouTube videos that focused on python development as well as langchain and llama index. I found some resources that allowed me to set up a quick testing environment through Google Colab and after I felt confident I had a workable idea, I set out to build it. I started by building locally and then deployed the frontend and API.",
   "learning_resources": "ChatGPT, Mozilla docs, YouTube, Google. I like how accessible everything is and that if I don't know how to solve something, I can usually find a foothold through one or more of those sources.",
@@ -24,5 +41,6 @@
   "working_remotely": "Not yet, but it's on the agenda and I will soon!",
   "favorite_aspect_of_programming": "The problem-solving process for sure. Even when things feel obfuscated, there's always a reason for why a solution does or doesn't work. I love building more and more robust solutions that can withstand different environments and asks of the system.",
   "communication_experience": "When I started SF Iron, I worked with accountants, lawyers, real estate brokers, strength coaches, clients, and investors. I kept records of all meetings I had and summarized them for relevant stakeholders. As new problems or projects arose, I looped in everyone who needed to be in the loop. I was the point person for all communication and made sure I didn't miss out on communicating important details along the way.",
-  "ultimate_career_goal": "I want to become a CTO. To do that, I know that I need to gain significantly more experience and wisdom in this field. I want to be the best software engineer I can be so that ultimately I can be the best leader I can be to my team and company."
+  "ultimate_career_goal": "I want to become a CTO. To do that, I know that I need to gain significantly more experience and wisdom in this field. I want to be the best software engineer I can be so that ultimately I can be the best leader I can be to my team and company.",
+  "weaknesses": "I have a tendency to become obsessive with the things I'm interested in. When I was younger this led to me neglecting other important areas in my life. Now, I strive to have a balance between pushing the boundaries on things I'm pursuing and my social life and other self-care related activities.",
 }

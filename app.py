@@ -15,12 +15,11 @@ def home():
 
 @app.route("/test", methods=["GET"])
 def test():
-    return "This is a test."
+    return "This is a test..."
 
 
 @app.route("/ask", methods=["POST"])
 def ask():
-    print("received tests", request.get_json())
     data = request.get_json()
     print(data)
     query = data.get("query")
