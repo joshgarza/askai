@@ -1,28 +1,28 @@
 {
   "name": "Josh Garza",
-  "current_status": "In between jobs, looking for work as a software engineer",
-  "industries": ["music", "fitness", "education"],
-  "expertise": ["leadership", "full stack development"],
-  "skills": ["empathy", "continuous development", "coaching"],
-  "accomplishments": ["Strengthtrainer.app", "SF Iron"],
-  "portfolio_url": "https://joshgarza.dev",
-  "programming_languages": ["Javascript", "React", "Nodejs", "Expressjs", "PostgreSQL", "MongoDB", "MySQL"],
-  "aws_services": ["EC2", "S3", "RDS", "Lambda", "DMS"],
-  "awards": "None",
-  "education": [
-    {
-      "institution": "San Francisco Conservatory of Music",
-      "degree": "Music Performance",
-      "years": "2010 - 2011"
-    },
-    {
-      "institution": "Hack Reactor",
-      "degree": "Software Engineering Immersive Resident",
-      "years": "Graduated December 2022"
-    }
-  ],
-  "notable_clients": ["Hack Reactor"],
-  "professional_goals": "To significantly improve as a software engineer and make significant contributions to the company and team I'm a part of",
-  "work_process": "I start by exploring the project from a high level, researching tools and tactics I could use to build the project, whiteboard out my schema, API, and frontend integrations, mockup some designs for the frontend, build a skeleton, set up a process for building tests as I develop, and deploy early and often",
-  "hobbies": ["playing guitar", "dancing salsa", "cooking"]
+  "current_job": "Currently in between jobs but looking for work as a software engineer.",
+  "previous_industries": "None at the moment but I have worked in music, fitness, and education industries.",
+  "technical_skills": "Leadership, full stack development",
+  "soft_skills": "Empathy, continuous development, coaching",
+  "projects": "Strengthtrainer.app and SF Iron",
+  "portfolio_website": "joshgarza.dev",
+  "programming_languages": "Javascript, React, Nodejs, Expressjs, postgresql, mongodb, mysql, aws: ec2, s3, rds, lambda, dms",
+  "open_source_contributions": "No",
+  "education": "Attended the San Francisco Conservatory of Music from 2010 - 2011 for music performance. Graduated from Hack Reactor in December of 2022.",
+  "mentorship": "Hack Reactor as a Software Engineering Immersive Resident",
+  "career_goals": "To significantly improve as a software engineer and make significant contributions to the company and team I'm a part of.",
+  "project_approach": "I start by exploring the project from a high level, researching tools and tactics I could use to build the project, whiteboard out my schema, api, and frontend integrations, mockup some designs for the frontend, build a skeleton, set up a process for building tests as I develop, deploy early and often",
+  "hobbies": "I play guitar, dance salsa, and love to cook.",
+  "challenging_project": "Building out my portfolio and integrating OpenAI's api to build my own custom chatbot was challenging and rewarding. I got to learn about python, llama index, langchain, and a couple deployment tools: Vercel and Render. To build the app I needed a functioning and good looking frontend as well as an api that could process queries and respond through the llm model, davinci. I also had to build out a dataset that contained information about my personal and work experience which I'm learning is an ongoing process.",
+  "motivation": "I love problem solving and pursuing things that have a high skill ceiling. The nature of deciding what to build, constructing a high level solution, researching what tools will be necessary, building and debugging, and deploying applications are exceedingly exciting. Even when I get stuck on a bug, I can't help but buzz with excitement knowing that on the other side of the bug is an advancement in the project I'm working on.",
+  "staying_updated": "I have friends who work in the industry that I talk to regularly. I follow a TON of influencers on social media channels and I also subscribe to several newsletters.",
+  "leadership_experience": "I've led a team and have mentored very junior developers. I ran my own business for 7 years and managed 8 employees. I've also had the opportunity to mentor a few people who are now pursuing careers in software engineering. The mentorship opportunities have come pretty organically through connections I have in the industry and from previous work experience. I tend to be approached by people when they learn I'm working on something new and those conversations often end up in opportunities being created.",
+  "favorite_programming_language": "I love programming in javascript (shocking, I know). After I learned Node.js, it felt like the whole world of building web applications opened up to me. I like that if I want to spin up a quick project or build something long term, I can utilize JavaScript for all of it.",
+  "learning_experience": "I just learned more about python and LLM libraries while building out my portfolio. I started off by reading through documentation and watching YouTube videos that focused on python development as well as langchain and llama index. I found some resources that allowed me to set up a quick testing environment through Google Colab and after I felt confident I had a workable idea, I set out to build it. I started by building locally and then deployed the frontend and API.",
+  "learning_resources": "ChatGPT, Mozilla docs, YouTube, Google. I like how accessible everything is and that if I don't know how to solve something, I can usually find a foothold through one or more of those sources.",
+  "debugging_process": "I start by reading the error logs and try to trace the problem to the root of the bug. If I can reason through the bug immediately, I'll start a new branch and begin tackling the bug. If I get stuck or can't reason through it, I'll search through Google for resources related to that error code and utilize ChatGPT as well. I then form a hypothesis for the cause of the bug and iterate on solutions around that hypothesis. If I'm still unable to find a solution, I zoom out a little more and form a new hypothesis and repeat the above process until I find traction.",
+  "working_remotely": "Not yet, but it's on the agenda and I will soon!",
+  "favorite_aspect_of_programming": "The problem-solving process for sure. Even when things feel obfuscated, there's always a reason for why a solution does or doesn't work. I love building more and more robust solutions that can withstand different environments and asks of the system.",
+  "communication_experience": "When I started SF Iron, I worked with accountants, lawyers, real estate brokers, strength coaches, clients, and investors. I kept records of all meetings I had and summarized them for relevant stakeholders. As new problems or projects arose, I looped in everyone who needed to be in the loop. I was the point person for all communication and made sure I didn't miss out on communicating important details along the way.",
+  "ultimate_career_goal": "I want to become a CTO. To do that, I know that I need to gain significantly more experience and wisdom in this field. I want to be the best software engineer I can be so that ultimately I can be the best leader I can be to my team and company."
 }
