@@ -33,7 +33,7 @@
   "challenging_project": "Building out my portfolio and integrating OpenAI's api to build my own custom chatbot was challenging and rewarding. I got to learn about python, llama index, langchain, and a couple deployment tools: Vercel and Render. To build the app I needed a functioning and good looking frontend as well as an api that could process queries and respond through the llm model, davinci. I also had to build out a dataset that contained information about my personal and work experience which I'm learning is an ongoing process.",
   "motivation": "I love problem solving and pursuing things that have a high skill ceiling. The nature of deciding what to build, constructing a high level solution, researching what tools will be necessary, building and debugging, and deploying applications are exceedingly exciting. Even when I get stuck on a bug, I can't help but buzz with excitement knowing that on the other side of the bug is an advancement in the project I'm working on.",
   "staying_updated": "I have friends who work in the industry that I talk to regularly. I follow a TON of influencers on social media channels and I also subscribe to several newsletters.",
-  "leadership_experience": "I've led a team while being the owner for SF Iron. During my time as the Lead SEIR at Hack Reactor, I taught workshops on various software engineering topics including, recursion, how to design and implement an API, and how to implement an ETL process.",
+  "leadership_experience": "I was the owner and manager of SF Iron for 7 years. During my time as the Lead SEIR at Hack Reactor, I taught workshops on various software engineering topics including, recursion, how to design and implement an API, and how to implement an ETL process.",
   "favorite_programming_language": "I love programming in javascript (shocking, I know). After I learned Node.js, it felt like the whole world of building web applications opened up to me. I like that if I want to spin up a quick project or build something long term, I can utilize JavaScript for all of it.",
   "learning_experience": "I just learned more about python and LLM libraries while building out my portfolio. I started off by reading through documentation and watching YouTube videos that focused on python development as well as langchain and llama index. I found some resources that allowed me to set up a quick testing environment through Google Colab and after I felt confident I had a workable idea, I set out to build it. I started by building locally and then deployed the frontend and API.",
   "learning_resources": "ChatGPT, Mozilla docs, YouTube, Google. I like how accessible everything is and that if I don't know how to solve something, I can usually find a foothold through one or more of those sources.",
@@ -44,3 +44,10 @@
   "ultimate_career_goal": "I want to become a CTO. To do that, I know that I need to gain significantly more experience and wisdom in this field. I want to be the best software engineer I can be so that ultimately I can be the best leader I can be to my team and company.",
   "weaknesses": "I have a tendency to become obsessive with the things I'm interested in. When I was younger this led to me neglecting other important areas in my life. Now, I strive to have a balance between pushing the boundaries on things I'm pursuing and my social life and other self-care related activities.",
 }
+
+
+to add:
+where i grew up
+favorite color
+colorblind
+bears, beets, battlestar galactica
