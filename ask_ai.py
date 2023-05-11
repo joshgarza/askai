@@ -2,19 +2,14 @@ from llama_index import (
     StorageContext,
     load_index_from_storage,
     SimpleDirectoryReader,
-    GPTListIndex,
-    readers,
     GPTVectorStoreIndex,
     LLMPredictor,
     PromptHelper,
     ServiceContext,
 )
 from langchain import OpenAI
-import sys
 import os
-from IPython.display import Markdown, display
 from dotenv import load_dotenv
-import random
 
 load_dotenv()
 
@@ -59,7 +54,6 @@ def construct_index(directory_path):
         documents, service_context=build_service_context()
     )
 
-    # index.save_to_disk('index.json')
     index.storage_context.persist(persist_dir="index.json")
 
     return index
@@ -69,13 +63,13 @@ def ask_ai(query):
     # rebuild storage context
     storage_context = StorageContext.from_defaults(persist_dir="index.json")
 
-    engineered_prompt = "You are a chatbot for Josh, JoshGPT. Craft a two sentence response to the query that is fun and casual. It MUST be a positive but realistic response. The following is the query:"
-
     # load index
     index = load_index_from_storage(
         storage_context, service_context=build_service_context()
     )
+
     query_engine = index.as_query_engine()
+    engineered_prompt = "You are a chatbot for Josh, JoshGPT. Craft a two sentence response to the query that is fun and casual. It MUST be a positive but realistic response. The following is the query:"
     response = query_engine.query(engineered_prompt + query)
 
     return response.response
