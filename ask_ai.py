@@ -7,7 +7,9 @@ from llama_index import (
     PromptHelper,
     ServiceContext,
 )
-from langchain import OpenAI
+
+# from langchain import OpenAI
+from langchain.chat_models import ChatOpenAI
 import os
 from dotenv import load_dotenv
 
@@ -35,8 +37,8 @@ def build_service_context():
     )
 
     llm_predictor = LLMPredictor(
-        llm=OpenAI(
-            temperature=0.8, model_name="text-davinci-003", max_tokens=num_outputs
+        llm=ChatOpenAI(
+            temperature=0.8, model_name="gpt-3.5-turbo", max_tokens=num_outputs
         )
     )
 
